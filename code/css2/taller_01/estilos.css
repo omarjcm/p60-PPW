@@ -1,0 +1,39 @@
+* {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 18px;
+    color: brown;
+}
+
+.subtitulo_1 {
+    color: blueviolet;
+}
+.subtitulo_2 {
+    color: aquamarine;
+}
+.subtitulo_3 {
+    color: chartreuse;
+}
+
+a {
+    display: block;
+    float: left;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.limpiar {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
