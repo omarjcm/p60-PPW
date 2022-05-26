@@ -1,0 +1,11 @@
+p {
+    padding: 20px;
+    border: 1px dotted blue;
+}
+
+#relativum {
+    background-color: burlywood;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
