@@ -6,9 +6,19 @@ a {
     padding: 10px;
     margin: 5px;
     text-align: center;
-    background-color: bisque;
+    background-color: black;
+    color: white;
 }
 
 a:hover {
-    background-color: aquamarine;
+    background-color: whitesmoke;
+    color: black;
+}
+
+a:active {
+    background-color: yellowgreen;
+}
+
+a:visited {
+    color: red;
 }
