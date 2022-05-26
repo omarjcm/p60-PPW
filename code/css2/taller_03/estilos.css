@@ -1,0 +1,31 @@
+a {
+    display: block;
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+a:active {
+    background-color: yellowgreen;
+}
+
+a:visited {
+    color: red;
+}
+
+.anterior {
+    float: left;
+}
+
+.siguiente {
+    float: right;
+}
