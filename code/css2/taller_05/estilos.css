@@ -1,11 +1,7 @@
-p {
-    padding: 20px;
-    border: 1px dotted blue;
+img, p {
+    float: left;
 }
 
-#absolutum {
-    background-color: burlywood;
-    position: absolute;
-    top: 40px;
-    left: 40px;
+.limpiar {
+    clear: both;
 }
