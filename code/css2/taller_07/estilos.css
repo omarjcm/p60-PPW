@@ -1,0 +1,11 @@
+p {
+    padding: 20px;
+    border: 1px dotted blue;
+}
+
+#fixum {
+    background-color: burlywood;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+}
