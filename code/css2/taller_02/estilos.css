@@ -1,0 +1,14 @@
+a {
+    display: block;
+    float: left;
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: bisque;
+}
+
+a:hover {
+    background-color: aquamarine;
+}
