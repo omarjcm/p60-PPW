@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+}
+
+.container {
+
+}
+
+.item1, .item2, .item3 {
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+}
+
+.item1, .item3 {
+    width: 7%;
+}
+
+.item2 {
+    width: 80%;
+}
+
+.limpiar {
+    clear: both;
+}
