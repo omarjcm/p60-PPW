@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: stretch;
+
+    height: 100vh;
+}
+
+.item {
+    border: 1px solid black;
+}
