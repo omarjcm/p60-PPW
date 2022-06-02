@@ -4,9 +4,6 @@
 
 .container {
     display: grid;
-    /* filas / columnas */
-    grid-template: repeat(5, 1fr) / auto auto auto;
-    grid-gap: 10px;
 }
 
 .item {
