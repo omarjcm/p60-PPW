@@ -1,0 +1,15 @@
+.opcion {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+}
+
+#opcion-1 {
+    background-color: aquamarine;
+}
+
+#opcion-2 {
+    background-color: bisque;
+}
