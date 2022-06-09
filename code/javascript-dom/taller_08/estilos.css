@@ -1,0 +1,12 @@
+#cajita-salesiana {
+    border: 2px solid black;
+    background-color: lightblue;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 450px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
