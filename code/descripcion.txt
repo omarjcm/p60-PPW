@@ -14,3 +14,4 @@
 - Taller_04 --> Funciones para listas de objetos. 
 - Taller_05 --> Uso de los bucles.
 - Taller_06 --> Paso por valor o referencia de objetos.
+- Taller_07 --> creacion de una lista y el registrar los objetos de un formulario en una lista,
