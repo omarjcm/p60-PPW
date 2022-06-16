@@ -1,0 +1,14 @@
+# Talleres de Programacion y Plataformas Web 
+
+## CSS 2
+
+## CSS 3
+
+## Javascript DOM
+
+## Javascript Basico
+
+- Taller_01 --> Tipos de datos
+- Taller_02 --> Comparaciones
+- Taller_03 --> Tipos de funciones: declarativa, expresiva y flecha.
+- Taller_04 --> Funciones para listas de objetos. 
