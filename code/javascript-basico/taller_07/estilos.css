@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template: 150px 1fr 50px / 1fr;
+    grid-template-areas: "header" "content" "footer";
+    grid-gap: 5px;
+    height: 100vh;
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    grid-area: header;
+    background-color: darkblue;
+    color: white;
+}
+
+.content {
+    grid-area: content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    grid-area: footer;
+    background-color:  darkblue;
+    color: white;
+}
+
+.formulario {
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 600px;
+}
+
+.formulario-fila {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+}
+
+.formulario-fila > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+    text-align: right;
+}
+
+.formulario-fila > input {
+    flex: 2;
+}
+
+.formulario-fila > input, .formulario-fila > button {
+    padding: .5em;
+}
+
+.formulario-fila > button {
+    background: gray;
+    color: white;
+    border: 0px;
+}
