@@ -12,3 +12,5 @@
 - Taller_02 --> Comparaciones
 - Taller_03 --> Tipos de funciones: declarativa, expresiva y flecha.
 - Taller_04 --> Funciones para listas de objetos. 
+- Taller_05 --> Uso de los bucles.
+- Taller_06 --> Paso por valor o referencia de objetos.
