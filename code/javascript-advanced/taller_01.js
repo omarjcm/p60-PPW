@@ -1,4 +1,5 @@
-// Javascript Puro
+// Javascript Nativo
+
 // Funcion que me permite crear enlaces entre los prototipos de funciones.
 function Hereda(prototipo_padre, prototipo_hijo) {
     let fn = function(){}

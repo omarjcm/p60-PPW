@@ -26,6 +26,11 @@ function responder_saludo( nombre ) {
     console.log(`Hola ${nombre}, ¿cómo estás?.`)
 }
 
+function responder_saludo_completo( nombre, apellido ) {
+    console.log(`Hola ${nombre} ${apellido}, ¿cómo estás?.`)
+}
+
 var persona1 = new Persona('Guillermo', 'Pizarro', 1.65)
 persona1.saludar(responder_saludo)
 persona1.es_alto()
+persona1.saludar(responder_saludo_completo)
