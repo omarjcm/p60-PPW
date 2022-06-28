@@ -1,3 +1,5 @@
+// Gestion del asincronismo mediante funciones tipo callbacks
+
 function hola(nombre, fn) {
     setTimeout(function() {
         console.log('Inciando conversacion.')
@@ -31,7 +33,7 @@ function hablar(fn) {
 }
 
 function iniciar_conversacion(nombre) {
-    dialogar(nombre, 10)
+    dialogar(nombre, 20)
 }
 
 hola('David', iniciar_conversacion)
