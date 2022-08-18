@@ -5,6 +5,15 @@ function addUser(data) {
     return my_data.save()
 }
 
+async function getUsers(filter) {
+    let new_filter = {}
+    if (filter.user != null) {
+        new_filter = {user: filter.user}
+    } 
+    return await Model.find( new_filter )
+}
+
 module.exports = {
-    add: addUser
+    add: addUser,
+    get: getUsers,
 }

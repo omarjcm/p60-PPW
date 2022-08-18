@@ -14,7 +14,14 @@ function updateUser(dato) {
 
 }
 
+function getUsers(filter) {
+    return new Promise((resolve, reject) => {
+        resolve(storage.get(filter))
+    })
+}
+
 module.exports = {
     addUser,
-    updateUser
+    updateUser,
+    getUsers
 }
