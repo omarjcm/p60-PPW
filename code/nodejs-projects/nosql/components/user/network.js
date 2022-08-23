@@ -18,4 +18,16 @@ route.get('/', function(req, res){
         .catch( (dato) => response.error(req, res, dato, 500) )
 })
 
+route.patch('/', function(req, res) {
+    controller.updateUser( req.body )
+        .then( (dato) => response.success(req, res, dato, 200) )
+        .catch( (dato) => response.error(req, res, dato, 500) )
+})
+
+route.delete('/', function(req, res) {
+    controller.deleteUser( req.body )
+        .then( (dato) => response.success(req, res, dato, 200) )
+        .catch( (dato) => response.error(req, res, dato, 500) )
+})
+
 module.exports = route
