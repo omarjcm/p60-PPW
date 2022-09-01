@@ -7,7 +7,17 @@ function getMessages(filter) {
             console.log(filter)
             my_filter = { chat: filter.chat }
         }
-        resolve( Model.find(my_filter) )    
+        Model.find(my_filter)
+            .populate('user')
+            .populate('chat')
+            .exec( (error, populated) => {
+                console.log(populated)
+                if (error) {
+                    reject(error)
+                } else {
+                    resolve(populated)
+                }
+            } )
     })
 }
 
